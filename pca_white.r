@@ -7,5 +7,8 @@ numel = length( as.matrix( wine )) / length( wine )
 pcx <- prcomp( wine, scale = TRUE )
 biplot( pcx, xlabs = rep( '.', numel ))
 
+# another window
 dev.new()
-plot( pcx )
+
+bar_colors = c( 'red', 'red', rep( 'gray', 10 ))
+plot( pcx, col = bar_colors )
