@@ -1,5 +1,5 @@
-kaggle-bestbuy_small
-====================
+Predicting wine quality
+=======================
 
 See [http://fastml.com/predicting-wine-quality/](http://fastml.com/predicting-wine-quality/) for description.
 
