@@ -9,7 +9,7 @@ quality = data(:,12);
 
 bad = quality < 5;
 medium = quality == 5;
-ok = quality > 5 & quality <= 6;
+ok = quality == 6;
 good = quality > 6;
 
 clf
